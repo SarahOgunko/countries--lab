@@ -21,7 +21,7 @@ const displayInfo = (data) => {
     section.appendChild(countryPopulation)
 
     const countryLanguage = document.createElement("p");
-    countryLanguage.innerText = data[0].languages[0]
+    countryLanguage.innerText = data[0].languages.eng
     section.appendChild(countryLanguage)
 
 }
